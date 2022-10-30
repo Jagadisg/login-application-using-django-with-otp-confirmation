@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel ="stylesheet" href="{% static 'signin.css' %}" type="text/css">
+    </head>
+    <body>
+        <div id="signcont">
+            <div id="signincont">
+                <form method="post" >
+                    <fieldset>
+                        <legend><h3>REGISTER</h3></legend>
+                        <br><label for="user">Username : </label>
+                        <input type="text" placeholder="Enter Username" name="user" id="user" required><br><br>
+                        <label for="email">Email ID : </label>
+                        <input type="text" placeholder="@gmail.com" name="email"  id="email" required><br><br>
+                        <label for="pass">Password : </label>
+                        <input type="password" placeholder="Enter password" name="pass"  id="pass" required><br><br>
+                        <label >Gender</label><br><br>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other" required>
+                        <label for="other">Other</label><br><br><br>
+                        <button type="submit" id="reg" >Register</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

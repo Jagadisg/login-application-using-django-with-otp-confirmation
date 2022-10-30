@@ -1,0 +1,23 @@
+#signcont{
+    /* height: fit-content; */
+    /* width: 600px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border: 2px solid blue;
+}
+#signincont{
+    width: 500px;
+    text-align: center;
+}
+label{
+    margin-right: 10px;
+}
+/* legend{
+    color: blue;
+} */
+fieldset{
+    border-color: blue;
+}
